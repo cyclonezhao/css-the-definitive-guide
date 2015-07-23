@@ -15,3 +15,13 @@ Importance
 Inheritance
 	most of the box-model properties are not inherited
 	inherited value has no specificity at all, not even zero specificity, will be defeated by USER AGENT STYLE
+	
+The Cascade
+	Reader Style importance > 
+	Author Style importance > 
+	Author Style > 
+	Reader Style > 
+	User Agent Style
+	> specificity > order
+	
+	LVHA -link, visited, hover, active

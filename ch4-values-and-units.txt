@@ -1,0 +1,22 @@
+Numbers
+	integer, real
+Percentages
+Colors
+
+Length Units
+	two-letter abbreviation
+	Absolute Length Units
+		for normal, there are 72 point in one inch, so 12pt means one-sixth inch tall
+		ppi -pixels per inch
+	Relative Length Units
+		em, ex
+		Pixel length(px)
+
+URLS
+	url(...)
+	
+Key Words
+	none
+	inherit
+	
+CSS2 Units
