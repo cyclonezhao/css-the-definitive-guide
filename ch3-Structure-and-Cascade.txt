@@ -1,0 +1,17 @@
+Specificity: 0,0,0,0
+	inline style
+	ID attribute value 
+	CLASS, PSEUDO-CLASS, ATTRIBUTE-SELECTION in the selector
+	ELEMENT OR PSEUDO-ELEMENT in the selector
+	
+	Universal Selector: 0,0,0,0 different than No Specificity
+		div p -0,0,0,2
+		body * strong -0,0,0,2
+	
+Importance
+	p.dark{color: red !important; background: white;}
+	p.dark{color: red !important; background: white !important;}
+	
+Inheritance
+	most of the box-model properties are not inherited
+	inherited value has no specificity at all, not even zero specificity, will be defeated by USER AGENT STYLE

@@ -1,0 +1,40 @@
+class selector
+id selector
+Attribute Selectors -CSS2 -based on their attributes and the values of those attributes
+	selecting elements that has a certain attribute:
+		h1[class]{color: blue;} 
+		a[href][title]{font-weight: bold;}
+	selecting based on exact Attribute Value:
+		planet[moons="1"]{font-weight: bold;}
+	Based on partial Attribute Values:
+		p[class~="warning"]{...}
+		[foo^="bar"]
+		[foo$="bar"]
+		[foo*="bar"]
+	A Particular Attribute Selection Type:
+		[lang|="en"] -match en, en-us, en-au, and so on
+		[src|="figure"] -match figure.jpg, figure-1.gif, figure-2, and so on
+		
+Decendant Selectors
+	ol li{...}
+	
+Children Selectors
+	h1 > strong
+	
+Adjacent Sibling Selector
+	h1 + p
+	
+Pseudo Class Selectors
+	a:link
+	:focus
+	:hover
+	:active
+	
+	:first-child
+	:first-letter
+	:first-line
+	
+	:lang(fr) -exactly like the |= attribute selector
+	
+	:before{content:"]]"; color: silver;}
+	:after
